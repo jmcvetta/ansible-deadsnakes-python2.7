@@ -1,5 +1,5 @@
-jmcvetta.deadsnakes-python2.7
-=============================
+jmcvetta.deadsnakes-python27
+============================
 
 Ansible role to install latest Python 2.7.x release from [Deadsnakes
 PPA](https://launchpad.net/~fkrull/+archive/ubuntu/deadsnakes).
