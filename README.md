@@ -1,14 +1,14 @@
 jmcvetta.python-latest
 ======================
 
-Ansible role to install the latest version of Python from the [Deadsnakes
+Ansible role to install latest Python 2.7.x release from [Deadsnakes
 PPA](https://launchpad.net/~fkrull/+archive/ubuntu/deadsnakes).
 
 
 Requirements
 ------------
 
-Tested on Ubuntu 14.04LTS and Ubuntu 16.04LTS.
+Tested on Ubuntu 14.04LTS "Trusty".  
 
 
 Role Variables
