@@ -1,22 +1,28 @@
-Role Name
-=========
+jmcvetta.python-latest
+======================
 
-A brief description of the role goes here.
+Ansible role to install the latest version of Python from the [Deadsnakes
+PPA](https://launchpad.net/~fkrull/+archive/ubuntu/deadsnakes).
+
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+Tested on Ubuntu 14.04LTS and Ubuntu 16.04LTS.
+
 
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+```yaml
+```
+
 
 Dependencies
 ------------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+n/a
+
 
 Example Playbook
 ----------------
@@ -27,12 +33,19 @@ Including an example of how to use your role (for instance, with variables passe
       roles:
          - { role: username.rolename, x: 42 }
 
+
 License
 -------
 
-BSD
+This is [Free Software](http://www.gnu.org/philosophy/free-sw.en.html),
+released under the terms of the [Apache v2 license](LICENSE).  Resist
+intellectual serfdom - the ownership of ideas is akin to slavery.
+
 
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+[Jason McVetta](mailto:jason.mcvetta@gmail.com)
+
+Support and consulting services are available from [Silicon
+Heavy](http://siliconheavy.com).
